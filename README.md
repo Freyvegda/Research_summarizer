@@ -11,21 +11,6 @@ This project implements a workflow for retrieving, processing, and summarizing r
 - **RAG-based Summarization**: Generate comprehensive summaries using retrieved content
 - **Result Presentation**: Display structured summaries with links to original papers
 
-## Project Structure
-
-```
-├── app.py                  # Main application entry point
-├── requirements.txt        # Project dependencies
-├── src/
-│   ├── query_processor.py  # Query preprocessing and embedding
-│   ├── paper_retriever.py  # arXiv API integration
-│   ├── document_processor.py # PDF parsing and text chunking
-│   ├── vector_store.py     # Vector database operations
-│   ├── summarizer.py       # RAG-based summarization
-│   └── utils.py            # Utility functions
-└── README.md               # Project documentation
-```
-
 ## Setup
 
 1. Clone the repository
@@ -56,9 +41,3 @@ This project implements a workflow for retrieving, processing, and summarizing r
 6. **Presentation of Results**
    - Summary is displayed in structured format
    - Links to original papers are provided
-
-## Future Enhancements
-
-- Multimodal summarization (extracting insights from figures/tables)
-- Keyword extraction and topic modeling
-- Citation generator for referenced papers
