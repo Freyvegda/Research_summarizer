@@ -1,0 +1,31 @@
+# Core dependencies
+python-dotenv>=1.0.0
+fastapi>=0.103.1
+uvicorn>=0.23.2
+pydantic>=2.3.0
+
+# Query processing and embeddings
+sentence-transformers>=2.2.2
+torch>=2.0.1
+transformers>=4.33.2
+
+# arXiv API integration
+arxiv>=1.4.8
+requests>=2.31.0
+
+# Document processing
+PyMuPDF>=1.22.5  # For PDF parsing
+pdfminer.six>=20221105  # Alternative PDF parser
+langchain>=0.0.267  # For text chunking
+
+# Vector database
+chromadb>=0.4.13  # Vector storage
+faiss-cpu>=1.7.4  # Alternative vector storage
+
+# Summarization models
+huggingface-hub>=0.16.4
+
+# Utilities
+tqdm>=4.66.1  # Progress bars
+numpy>=1.25.2
+pandas>=2.1.0
